@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <SHORTTEXT>BADI for OData changes</SHORTTEXT>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>ZHANA_BADI_ODATA</BADI_NAME>
+     <INTERFACE_NAME>ZHANA_INTERFACE_ODATA</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>N</CONTEXT_MODE>
+     <BADI_SHORTTEXT>Badi for OData definition</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>12BC18765D7B1EE795E1493880A7D241</BADI_SHORTTEXT_ID>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>12BC18765D7B1EE795E14549AB76123F</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>12BC18765D7B1EE795E14549AB76123F</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>033</LENGTH>
+       <TEXT>BADI for OData changes</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>12BC18765D7B1EE795E1493880A7D241</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>12BC18765D7B1EE795E1493880A7D241</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>038</LENGTH>
+       <TEXT>Badi for OData definition</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>ZHANA_ES_ODATA</OBJ_NAME>
+     <CONCEPT>12BC18765D7B1EE795E14549AB76123F</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>ZHANA_ES_ODATA</OBJ_NAME>
+     <CONCEPT>12BC18765D7B1EE795E1493880A7D241</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

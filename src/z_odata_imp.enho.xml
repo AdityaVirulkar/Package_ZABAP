@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SPOT_NAME>Z_ES_ODATA</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>Z_ES_ODATA</SPOT_NAME>
+     <BADI_NAME>Z_ODATA_DEF</BADI_NAME>
+     <IMPL_NAME>ZBADI_ODATA_IMP</IMPL_NAME>
+     <IMPL_CLASS>ZBADI_ODATA_CLS</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <IMPL_SHORTTEXT>Badi Odata Implementation</IMPL_SHORTTEXT>
+     <IMPL_SHORTTEXT_ID>12BC18765D7B1ED799BF01EDED05CF05</IMPL_SHORTTEXT_ID>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

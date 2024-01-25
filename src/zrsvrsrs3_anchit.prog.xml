@@ -1,0 +1,1042 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZRSVRSRS3_ANCHIT</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Class:</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>(ABAP Objects)</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A01</KEY>
+     <ENTRY>Apart from some indentations that may differ,</ENTRY>
+     <LENGTH>89</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A02</KEY>
+     <ENTRY>Apart from some comments that may differ,</ENTRY>
+     <LENGTH>89</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A03</KEY>
+     <ENTRY>Apart from some indentations and comments that may differ,</ENTRY>
+     <LENGTH>89</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A04</KEY>
+     <ENTRY>the sources of the two versions are the same.</ENTRY>
+     <LENGTH>89</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CLP</KEY>
+     <ENTRY>Clipboard</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>G01</KEY>
+     <ENTRY>Exit Editor</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>G03</KEY>
+     <ENTRY> was changed. Save before exiting editor?</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>J01</KEY>
+     <ENTRY>Buffer empty.</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>J05</KEY>
+     <ENTRY>Buffer</ENTRY>
+     <LENGTH>6</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L01</KEY>
+     <ENTRY>The following lines were deleted</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L02</KEY>
+     <ENTRY>Following lines exist only in version</ENTRY>
+     <LENGTH>39</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L03</KEY>
+     <ENTRY>of the REMOTE system:</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L04</KEY>
+     <ENTRY>The following lines were added</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L05</KEY>
+     <ENTRY>Following lines do not exist in version</ENTRY>
+     <LENGTH>41</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L07</KEY>
+     <ENTRY>The following lines were changed:</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L08</KEY>
+     <ENTRY>Content unchanged:</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L09</KEY>
+     <ENTRY>Compare Report Sources</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L10</KEY>
+     <ENTRY>Left-Hand Column:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L11</KEY>
+     <ENTRY>Remote system:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L12</KEY>
+     <ENTRY>Request:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L13</KEY>
+     <ENTRY>Text:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L14</KEY>
+     <ENTRY>Right-Hand Column:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L15</KEY>
+     <ENTRY>Local System:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L17</KEY>
+     <ENTRY>There are no differences in the sources of these versions.</ENTRY>
+     <LENGTH>59</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L18</KEY>
+     <ENTRY>Inactive version</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L19</KEY>
+     <ENTRY>active version</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L20</KEY>
+     <ENTRY>Version</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L21</KEY>
+     <ENTRY>Assignment between changes and requests</ENTRY>
+     <LENGTH>43</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L22</KEY>
+     <ENTRY>Number at</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L23</KEY>
+     <ENTRY>Request</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L24</KEY>
+     <ENTRY>Text</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L25</KEY>
+     <ENTRY>Change</ENTRY>
+     <LENGTH>8</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L26</KEY>
+     <ENTRY>Report program:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L27</KEY>
+     <ENTRY>Report source:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L28</KEY>
+     <ENTRY>Report text:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L29</KEY>
+     <ENTRY>Function module:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L30</KEY>
+     <ENTRY>Differences in following attributes:</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L31</KEY>
+     <ENTRY>Level.........................</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L32</KEY>
+     <ENTRY>Version.......................</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L33</KEY>
+     <ENTRY>Created on....................</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L34</KEY>
+     <ENTRY>Last changed on...............</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L35</KEY>
+     <ENTRY>Last changed by...............</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L36</KEY>
+     <ENTRY>Created by....................</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L37</KEY>
+     <ENTRY>Type..........................</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L38</KEY>
+     <ENTRY>Status........................</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L39</KEY>
+     <ENTRY>Application...................</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L40</KEY>
+     <ENTRY>Program class.................</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L41</KEY>
+     <ENTRY>Logical database..............</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L42</KEY>
+     <ENTRY>Application of logical DB.....</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L43</KEY>
+     <ENTRY>Selection screen..............</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L44</KEY>
+     <ENTRY>Authorization group...........</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L45</KEY>
+     <ENTRY>Start using variant...........</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L46</KEY>
+     <ENTRY>Editor lock active............</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L47</KEY>
+     <ENTRY>Change database SQL/ODC.......</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L48</KEY>
+     <ENTRY>SAP SQL with var. client......</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L49</KEY>
+     <ENTRY>Fixed point arithmetic active.</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L60</KEY>
+     <ENTRY>No differences in the attributes of</ENTRY>
+     <LENGTH>41</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L61</KEY>
+     <ENTRY>these versions.</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L62</KEY>
+     <ENTRY>Compare report attributes</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L63</KEY>
+     <ENTRY>unchanged lines omitted</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L64</KEY>
+     <ENTRY>Comparison of contexts</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L65</KEY>
+     <ENTRY>Context:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L66</KEY>
+     <ENTRY>Compare method implementations</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L67</KEY>
+     <ENTRY>Method:</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L68</KEY>
+     <ENTRY>Comparison:</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L70</KEY>
+     <ENTRY>Vers. only</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L71</KEY>
+     <ENTRY>System:</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L72</KEY>
+     <ENTRY>Differing Lines:</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L73</KEY>
+     <ENTRY>Compare type groups</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L74</KEY>
+     <ENTRY>Compare Interfaces</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L75</KEY>
+     <ENTRY>Compare XSLT Programs</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Compare Versions: Report Sources</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>INFOLN1A</KEY>
+     <ENTRY>?...(INFOLN1A)</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>INFOLN1B</KEY>
+     <ENTRY>?...(INFOLN1B)</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>INFOLN2A</KEY>
+     <ENTRY>?...(INFOLN2A)</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>INFOLN2B</KEY>
+     <ENTRY>?...(INFOLN2B)</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>LOG_DEST</KEY>
+     <ENTRY>?...(LOG DEST)</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>OBJNAME</KEY>
+     <ENTRY>?...(OBJNAME)</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>OBJTYP1</KEY>
+     <ENTRY>?...(OBJTYP1)</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>OBJTYP2</KEY>
+     <ENTRY>?...(OBJTYP2)</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>REM_SYST</KEY>
+     <ENTRY>?...(REM SYST)</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>VERSNO1</KEY>
+     <ENTRY>?...(VERSNO1)</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>VERSNO2</KEY>
+     <ENTRY>?...(VERSNO2)</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Klasse:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>(ABAP Objects)</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A01</KEY>
+       <ENTRY>Abgesehen von möglicherweise unterschiedlichen Einrückungen</ENTRY>
+       <LENGTH>89</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A02</KEY>
+       <ENTRY>Abgesehen von möglicherweise unterschiedlichen Kommentaren</ENTRY>
+       <LENGTH>89</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A03</KEY>
+       <ENTRY>Abgesehen von möglicherweise unterschiedlichen Einrückungen und Kommentaren</ENTRY>
+       <LENGTH>89</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A04</KEY>
+       <ENTRY>sind die Sourcen der beiden Versionen gleich.</ENTRY>
+       <LENGTH>89</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CLP</KEY>
+       <ENTRY>Clipboard</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>G01</KEY>
+       <ENTRY>Editor beenden</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>G03</KEY>
+       <ENTRY> wurde verändert. Vor Beenden des Editors sichern?</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>J01</KEY>
+       <ENTRY>Die Ablage ist leer.</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>J05</KEY>
+       <ENTRY>Ablage</ENTRY>
+       <LENGTH>6</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L01</KEY>
+       <ENTRY>Folgende Zeilen wurden gelöscht:</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L02</KEY>
+       <ENTRY>Folgende Zeilen sind nur in der Version</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L03</KEY>
+       <ENTRY>des REMOTE-Systems vorhanden:</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L04</KEY>
+       <ENTRY>Folgende Zeilen wurden eingefügt:</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L05</KEY>
+       <ENTRY>Folgende Zeilen sind nicht in der Version</ENTRY>
+       <LENGTH>41</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L07</KEY>
+       <ENTRY>Folgende Zeilen wurden verändert:</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L08</KEY>
+       <ENTRY>Inhalt unverändert:</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L09</KEY>
+       <ENTRY>Vergleich von Reportsourcen</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L10</KEY>
+       <ENTRY>Linke Spalte:       ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L11</KEY>
+       <ENTRY>Remote-System:      ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L12</KEY>
+       <ENTRY>Auftrag:            ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L13</KEY>
+       <ENTRY>Text:               ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L14</KEY>
+       <ENTRY>Rechte Spalte:      ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L15</KEY>
+       <ENTRY>Lokales System:     ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L17</KEY>
+       <ENTRY>Es gibt keine Unterschiede in den Sourcen dieser Versionen.</ENTRY>
+       <LENGTH>59</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L18</KEY>
+       <ENTRY>inaktive Version</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L19</KEY>
+       <ENTRY>aktive Version</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L20</KEY>
+       <ENTRY>Version</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L21</KEY>
+       <ENTRY>Zuordnung zwischen Änderungen und Aufträgen</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L22</KEY>
+       <ENTRY>Nummer bei</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L23</KEY>
+       <ENTRY>Auftrag</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L24</KEY>
+       <ENTRY>Text</ENTRY>
+       <LENGTH>4</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L25</KEY>
+       <ENTRY>Änderung</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L26</KEY>
+       <ENTRY>Report:             ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L27</KEY>
+       <ENTRY>Reportsource:       ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L28</KEY>
+       <ENTRY>Reporttexte:        ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L29</KEY>
+       <ENTRY>Funktionsbaustein:  ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L30</KEY>
+       <ENTRY>Unterschiede bei folgenden Attributen:</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L31</KEY>
+       <ENTRY>Stand.........................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L32</KEY>
+       <ENTRY>Version.......................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L33</KEY>
+       <ENTRY>Erstellt am...................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L34</KEY>
+       <ENTRY>Letzte Änderung am............;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L35</KEY>
+       <ENTRY>Letzte Änderung von...........;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L36</KEY>
+       <ENTRY>Erstellt von..................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L37</KEY>
+       <ENTRY>Typ...........................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L38</KEY>
+       <ENTRY>Status........................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L39</KEY>
+       <ENTRY>Anwendung.....................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L40</KEY>
+       <ENTRY>Programmklasse................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L41</KEY>
+       <ENTRY>Logische Datenbank............;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L42</KEY>
+       <ENTRY>Anwendung der log. DB.........;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L43</KEY>
+       <ENTRY>Selektionsbild................;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L44</KEY>
+       <ENTRY>Berechtigungsgruppe...........;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L45</KEY>
+       <ENTRY>Start über Variante...........;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L46</KEY>
+       <ENTRY>Editorsperre aktiv............;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L47</KEY>
+       <ENTRY>Datenbank ändern SQL/ODC......;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L48</KEY>
+       <ENTRY>SAP-SQL mit var. Mandant......;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L49</KEY>
+       <ENTRY>Festpunktarithmetik aktiv.....;;</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L60</KEY>
+       <ENTRY>Es gibt keine unterschiedlichen Attribute</ENTRY>
+       <LENGTH>41</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L61</KEY>
+       <ENTRY>zwischen diesen Versionen.</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L62</KEY>
+       <ENTRY>Vergleich von Reportattributen</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L63</KEY>
+       <ENTRY>unveränderte Zeilen ausgelassen</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L64</KEY>
+       <ENTRY>Vergleich von Kontexten</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L65</KEY>
+       <ENTRY>Kontext:            ;;</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L66</KEY>
+       <ENTRY>Vergleich von Methodenimplementierungen</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L67</KEY>
+       <ENTRY>Methode:</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L68</KEY>
+       <ENTRY>Vergleich:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L70</KEY>
+       <ENTRY>Nur Version</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L71</KEY>
+       <ENTRY>System:</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L72</KEY>
+       <ENTRY>Unterschiedliche Zeilen:</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L73</KEY>
+       <ENTRY>Vergleich von Typgruppen</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L74</KEY>
+       <ENTRY>Vergleich von Interfaces</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>L75</KEY>
+       <ENTRY>Vergleich von XSLT Programmen</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Versionsvergleich: Reportsourcen</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>INFOLN1A</KEY>
+       <ENTRY>?...(INFOLN1A)</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>INFOLN1B</KEY>
+       <ENTRY>?...(INFOLN1B)</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>INFOLN2A</KEY>
+       <ENTRY>?...(INFOLN2A)</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>INFOLN2B</KEY>
+       <ENTRY>?...(INFOLN2B)</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LOG_DEST</KEY>
+       <ENTRY>?...(LOG DEST)</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OBJNAME</KEY>
+       <ENTRY>?...(OBJNAME)</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OBJTYP1</KEY>
+       <ENTRY>?...(OBJTYP1)</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OBJTYP2</KEY>
+       <ENTRY>?...(OBJTYP2)</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>REM_SYST</KEY>
+       <ENTRY>?...(REM SYST)</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>VERSNO1</KEY>
+       <ENTRY>?...(VERSNO1)</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>VERSNO2</KEY>
+       <ENTRY>?...(VERSNO2)</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

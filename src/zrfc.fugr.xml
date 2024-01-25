@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>RFC</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZRFCTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZRFC</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZRFC</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>RFC</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ID</PARAMETER>
+       <TYP>SCPR_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_PARAM</PARAMETER>
+       <DBSTRUCT>TAB512</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>I_PROG</PARAMETER>
+       <DBSTRUCT>LINE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>O_RESULT</PARAMETER>
+       <DBSTRUCT>TAB512</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_PROGRAM_GENERATED</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Business Configuration Set</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Input parameter with &apos;|&apos; delimiter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PROG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Line</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Output</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_PROGRAM_GENERATED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No Prog</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
